@@ -1,3 +1,3 @@
-#### Footer col 1
+#### Bokbinderiutbildning
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Info om den 3-åriga bokbinderiutbildningen på [Leksands Folkhögskola](https://leksand.fhsk.se/utbildningar/bokbinderi/)

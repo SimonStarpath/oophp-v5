@@ -1,3 +1,5 @@
-#### Footer col 2
+#### Chili
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Info om [Svenska chiliföreningen](https://www.chilepeppar.com/)
+</br>
+Fröer kan man handla på [Impecta](https://www.impecta.se/)

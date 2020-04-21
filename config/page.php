@@ -20,7 +20,8 @@ return [
             "lang" => "sv",
             "stylesheets" => [
                 // Change here to set another default stylesheet
-                "css/dbwebb-se.min.css",
+                "css/kmom06-designelement.min.css"
+                //"css/dbwebb-se.min.css",
                 //"css/another.min.css",
             ],
             "javascripts" => [

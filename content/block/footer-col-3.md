@@ -1,3 +1,4 @@
-#### Footer col 3
-
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+####Bra att veta
+Vilken [vecka](https://vecka.nu/) är det?
+</br>
+Var slutar [Internet](http://endoftheweb.se/)?
