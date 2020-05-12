@@ -32,11 +32,12 @@ class Player
         $this -> points += $points;
     }
 
-    public function keepPlaying(int $points, int $limit, int $nbrOfDices)
+    public function keepPlaying(int $points, int $limit, int $nbrOfDices, int $leadingScore = 0)
     {
         $points = $points;
         $limit = $limit;
         $nbrOfDices = $nbrOfDices;
+        $leadingScore = $leadingScore;
         return null;
     }
 }

@@ -34,7 +34,7 @@ class DiceGame
             array_push($this -> players, new ComputerPlayer("Computer"));
         }
 
-        $this -> dicehand = new DiceHand($nbrOfDices);
+        $this -> dicehand = new DiceHandHistogram($nbrOfDices);
         $this -> currentPlayerIndex = 0;
         $this -> currentSum = 0;
         $this -> nbrOfDices = $nbrOfDices;
@@ -135,5 +135,14 @@ class DiceGame
         }
 
         return null;
+    }
+
+
+    public function getHistogram()
+    {
+        $histogram = new Histogram();
+        $histogram->injectData($this->dicehand);
+
+        return $histogram->getAsText();
     }
 }

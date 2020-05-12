@@ -62,9 +62,6 @@ $app->router->post("guess/play", function () use ($app) {
     $title = "Play the game";
     $game = $_SESSION["game"];
     $guess = $_POST["guess"] ?? null;
-    // $doInit = $_POST["doInit"] ?? null;
-    // $doGuess = $_POST["doGuess"] ?? null;
-    // $doCheat = $_POST["doCheat"] ?? null;
 
     $_SESSION["number"] = $_SESSION["game"] -> number();
     $_SESSION["guess"] = $guess;
