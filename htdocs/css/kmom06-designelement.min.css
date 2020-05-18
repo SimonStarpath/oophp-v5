@@ -16,3 +16,101 @@
  .region-main {
      min-height: 16em;
  }
+
+
+ img.thumb {
+     max-width: 100px;
+     max-height: 100px;
+ }
+
+
+
+ form.label-left {
+     margin-bottom: 24px;
+ }
+
+ form.label-left label,
+ form.label-left input[type=text],
+ form.label-left input[type=number] {
+     height: 20px;
+     margin-bottom: 4px;
+ }
+
+ form.label-left label {
+     display: inline-block;
+     width: 5em;
+     float: left;
+     padding-top: 6px;
+     padding-right: 1em;
+
+     /* text-align: right; */
+ }
+
+ form.label-left label::after {
+     content: ":";
+ }
+
+ form.label-left input[type=text],
+ form.label-left input[type=number] {
+     display: block;
+     width: 20em;
+     height: 25px;
+ }
+
+ table {
+     /*  border: 1px solid #ccc; */
+     margin: 20px 0;
+     width: 100%;
+     border-collapse: collapse;
+ }
+
+ th {
+     border-bottom: 1px solid #999;
+ }
+
+ td {
+     padding: 0.3em 0.2em;
+ }
+
+ td.right {
+     text-align: right;
+ }
+
+ tr:hover {
+     background-color: #eee;
+ }
+
+ th {
+     height: 50px;
+     color: #ff8000;
+     background-color: #a3f2f4;
+ }
+
+ td {
+     text-align: center;
+     color: #fff;
+ }
+
+ tr:nth-child(even) {
+     background-color: #1aa5a7;
+ }
+
+ tr:nth-child(odd) {
+     background-color: #0f9d56;
+ }
+
+ form.label-left {
+     margin-bottom: 24px;
+ }
+
+ nav a {
+     display: inline-block;
+     padding: 0.5em 1em;
+     border: 1px solid #999;
+     margin-bottom: 5px;
+     text-decoration: none;
+     font-size: 14px;
+     text-transform: uppercase;
+ }
+
+@import "@fortawesome/fontawesome-free/less/fontawesome.less";
