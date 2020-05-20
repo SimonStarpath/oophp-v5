@@ -45,6 +45,11 @@ return [
                         "url" => "redovisning/kmom05",
                         "title" => "Redovisning för kmom05.",
                     ],
+                    [
+                        "text" => "Kmom06",
+                        "url" => "redovisning/kmom06",
+                        "title" => "Redovisning för kmom06.",
+                    ],
                 ],
             ],
         ],
@@ -87,6 +92,16 @@ return [
             "text" => "Movie Database",
             "url" => "movie1",
             "title" => "Filmdatabasen",
+        ],
+        [
+            "text" => "Text Filter",
+            "url" => "textfilter",
+            "title" => "Text filter",
+        ],
+        [
+            "text" => "Content Database",
+            "url" => "content",
+            "title" => "Content Database",
         ],
     ],
 ];
